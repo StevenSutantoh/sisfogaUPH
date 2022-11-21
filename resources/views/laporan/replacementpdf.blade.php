@@ -22,9 +22,6 @@
                 border: 1px solid;
             } */
         </style>
-        <a target="_blank" href="/laporan/replacement/pdf" 
-        class="btn btn-primary">Cetak PDF</a>
-        <br>
         <br>
         <h1>
             Pengajuan Replacement Class

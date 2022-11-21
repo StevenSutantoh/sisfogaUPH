@@ -18,6 +18,6 @@ class LaporanController extends Controller
         $rpl = replacement::all();
         $pdf = PDF::loadview('laporan/replacementpdf',['replacement'=>$rpl]);
 
-        return $pdf->download('laporan-replacement');
+        return $pdf->download('laporan-replacement.pdf');
     }
 }
