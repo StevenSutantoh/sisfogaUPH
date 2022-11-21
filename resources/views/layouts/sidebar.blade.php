@@ -64,8 +64,17 @@
                </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:8000/admin/replacement" class="nav-link">
+              <i class="nav-icon fas fa-clipboard"></i>
+              <p>
+                Pengajuan Replacement Class
+               </p>
+            </a>
+          </li>
 
           Route::resource('admin/attendance', 'App\Http\Controllers\Admin\attendanceController');
           Route::resource('admin/reservation', 'App\Http\Controllers\Admin\reservationController');
           Route::resource('admin/schedule', 'App\Http\Controllers\Admin\scheduleController');
+          Route::resource('admin/replacement', 'App\Http\Controllers\Admin\replacementController');
 </ul>
